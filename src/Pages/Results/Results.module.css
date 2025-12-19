@@ -1,0 +1,18 @@
+.products_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+
+  /* CENTER THE GRID */
+  max-width: 1200px;
+  margin: 100px auto 0 auto;   /* centers left + right */
+
+  padding: 0 20px;  /* soft margin on both sides */
+  box-sizing: border-box;
+  overflow: visible;  /* prevent unwanted scroll */
+}
+
+
+.products_container section{
+    margin: 0 auto;
+}
