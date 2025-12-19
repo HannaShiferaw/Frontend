@@ -1,6 +1,6 @@
 import React, { useEffect , useState } from 'react'
 import styles from './Results.module.css'
-import LayOut from '../../Components/LayOut/LayOut'
+import LayOut from '../../Components/LayOut/LayOut.jsx'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import { productUrl } from '../../Api/endPoints'
