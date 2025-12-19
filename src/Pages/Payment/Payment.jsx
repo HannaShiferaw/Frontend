@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import styles from "./payment.module.css";
-import Layout from "../../Components/Layout/Layout";
+import LayOut from "../../Components/LayOut/LayOut.jsx";
 import { DataContext } from "../../Components/DataProvider/DataProvider";
 import ProductCard from "../../Components/Product/ProductCard";
 import { useStripe, useElements, CardElement } from "@stripe/react-stripe-js";
@@ -106,7 +106,7 @@ function Payment() {
 
 
   return (
-    <Layout>
+    <LayOut>
       {/* header */}
       <div className={styles.payment_header}>Checkout ({totalItem}) items</div>
 
@@ -170,7 +170,7 @@ function Payment() {
           </div>
         </div>
       </section>
-    </Layout>
+    </LayOut>
   );
 }
 
