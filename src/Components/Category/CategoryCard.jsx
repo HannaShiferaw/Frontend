@@ -1,4 +1,4 @@
-import styles from "./category.module.css";
+import styles from "./Category.module.css";
 import { Link } from "react-router-dom";
 
 
